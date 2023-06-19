@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">OneHR</string>
+    <string-array name="claimstype">
+        <item>Transport</item>
+        <item>Medical</item>
+        <item>Stationary</item>
+        <item>Adhoc</item>
+    </string-array>
+    <string-array name="leavesType">
+        <item>Annual Leave</item>
+        <item>Childcare Leave</item>
+        <item>Sick Leave</item>
+        <item>Maternity Leave</item>
+    </string-array>
+    <string name="login">Log In</string>
+    <string name="employeeID">Employee ID:</string>
+    <string name="password">Password:</string>
+</resources>

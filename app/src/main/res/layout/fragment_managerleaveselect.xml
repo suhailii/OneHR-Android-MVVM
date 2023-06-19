@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.733"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/textViewLeaves"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Leave Type:"
+            android:textColor="#090808"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/textViewLeaveType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/info_border"
+            android:textColor="#090808"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/textViewSD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Start Date:"
+            android:textColor="#090808"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/textViewStartDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textColor="#090808"
+            android:background="@drawable/info_border"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/textViewED"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="End Date:"
+            android:textColor="#090808"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/textViewEndDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/info_border"
+            android:layout_marginTop="5dp"
+            android:textColor="#090808"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/textViewRemarksLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Remarks:"
+            android:layout_marginTop="20dp"
+            android:textColor="#090808"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/textViewRemarksLeave"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#090808"
+            android:background="@drawable/info_border"
+            android:textSize="17sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnRejectLeave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/holo_red_dark"
+                android:text="Reject" />
+
+            <Button
+                android:id="@+id/btnAcceptLeave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="Accept" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
