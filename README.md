@@ -42,11 +42,11 @@ The OneHR Android App is a human resources management application designed to st
 - RoomDB(SQlite) for storing notifications of users locally
 
 ## Screenshots
-<img src="https://github.com/suhailii/OneHR-Android-MVVM/assets/74708728/1d60c89b-2ddb-4daf-95a1-24392a2c63d7" alt="Home" width="190">
-<img src="https://github.com/suhailii/OneHR-Android-MVVM/assets/74708728/b998b9ec-c169-45a8-a81a-7b160aef14c7" alt="Claims" width="190">
-<img src="https://github.com/suhailii/OneHR-Android-MVVM/assets/74708728/329da39b-591d-48ac-a80b-8586dcbf424b" alt="Leaves" width="190">
-<img src="https://github.com/suhailii/OneHR-Android-MVVM/assets/74708728/9fe8903e-700b-4517-9c0a-9457eef9888e" alt="Jitsi" width="190">
-<img src="https://github.com/suhailii/OneHR-Android-MVVM/assets/74708728/2d21919b-e0f7-4fe3-a889-68f432bf5fd9" alt="Notifs" width="190">
+<img src="https://github.com/suhailii/OneHR-Android-MVVM/assets/74708728/1d60c89b-2ddb-4daf-95a1-24392a2c63d7" alt="Home" width="150">
+<img src="https://github.com/suhailii/OneHR-Android-MVVM/assets/74708728/b998b9ec-c169-45a8-a81a-7b160aef14c7" alt="Claims" width="150">
+<img src="https://github.com/suhailii/OneHR-Android-MVVM/assets/74708728/329da39b-591d-48ac-a80b-8586dcbf424b" alt="Leaves" width="150">
+<img src="https://github.com/suhailii/OneHR-Android-MVVM/assets/74708728/9fe8903e-700b-4517-9c0a-9457eef9888e" alt="Jitsi" width="150">
+<img src="https://github.com/suhailii/OneHR-Android-MVVM/assets/74708728/2d21919b-e0f7-4fe3-a889-68f432bf5fd9" alt="Notifs" width="150">
 
 
 
